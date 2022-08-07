@@ -21,7 +21,7 @@ public class HW1_Task3 {
             } else {
                 result = word + " " + result;
             }
-            i=j+1;
+            i = j + 1;
         }
 
         System.out.println(result);

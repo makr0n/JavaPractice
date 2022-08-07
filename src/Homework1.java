@@ -1,6 +1,6 @@
 public class Homework1 {
     public static void main(String[] args) {
-        int[] arr = new int[]{8,4,5,0,0,0,0,7};
+        int[] arr = new int[]{8,4,5,0, 0,0,0,7};
         int duplicatesCount = 0;
         int indexCount = arr.length - 1;
         //Посчитаем количество нулей которые необходимо продублировать
