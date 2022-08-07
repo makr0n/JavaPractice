@@ -1,6 +1,6 @@
 public class HW1_Task3 {
     public static void main(String[] args) {
-        String s = "  hello world  ";
+        String s = "  hello world abra cadabra     ";
         int i = 0;
         int n = s.length();
         String result = new String();
@@ -16,11 +16,7 @@ public class HW1_Task3 {
                 j++;
             }
             String word = s.substring(i, j);
-            if (result.length() == 0) {
-                result = word;
-            } else {
-                result = word + " " + result;
-            }
+            result = word + " " + result;
             i = j + 1;
         }
 
