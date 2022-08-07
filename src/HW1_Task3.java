@@ -7,9 +7,9 @@ public class HW1_Task3 {
         while (i < n) {
             while (i < n && s.charAt(i) == ' ') {
                 i++;
-                if (i >= n) {
-                    break;
-                }
+            }
+            if (i >= n) {
+                break;
             }
             int j = i + 1;
             while (j < n && s.charAt(j) != ' ') {
